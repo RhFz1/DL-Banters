@@ -5,8 +5,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 import matplotlib.pyplot as plt
-from cnn import *
-from ffn import *
+from src.components.cnn import *
+from src.components.ffn import *
 
 '''
 

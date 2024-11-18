@@ -21,6 +21,7 @@ def main():
     # Loading the trained model
     cnn_model.load_state_dict(torch.load('artifacts/cnn.pth'))
     ffn_model.load_state_dict(torch.load('artifacts/ffn.pth'))
+    cnn_model, ffn_model = cnn_model.to(device), ffn_model.to(device)
 
     correct_ffn = 0
     total_ffn = 0
@@ -42,10 +43,10 @@ def main():
 
             inputs, labels = inputs.to(device), labels.to(device)  # Move inputs and labels to device
             
-            outputs_cnn = conv_net(inputs)
+            outputs_cnn = cnn_model(inputs)
             # Flatten inputs for ffn
             inputs = inputs.view(inputs.shape[0], -1)
-            outputs_ffn = feedforward_net(inputs)
+            outputs_ffn = ffn_model(inputs)
             
             probs_ffn = F.softmax(outputs_ffn, dim=1)
             probs_cnn = F.softmax(outputs_cnn, dim=1)
@@ -58,3 +59,6 @@ def main():
     print('Accuracy for feedforward network: ', correct_ffn/total_ffn)
     print('Accuracy for convolutional network: ', correct_cnn/total_cnn)
 
+
+if __name__ == '__main__':
+    main()

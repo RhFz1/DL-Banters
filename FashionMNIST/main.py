@@ -1,13 +1,18 @@
 import torch
+import torch.nn.functional as F
 from src.components.ffn import FF_Net
 from src.components.cnn import Conv_Net
-from src.components.data import load_data
+from src.components.data_loader import load_data
 
+
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 def main():
+    
 
+    batch_size = 128
     # Load data
-    train_loader, test_loader = load_data()
+    train_loader, test_loader = load_data(batch_size)
 
     # Initialize model
     cnn_model = Conv_Net()
@@ -24,14 +29,14 @@ def main():
     total_cnn = 0
 
     with torch.no_grad():           # since we're not training, we don't need to calculate the gradients for our outputs
-        size = len(testloader.dataset)
-        num_batches = len(testloader)
+        size = len(test_loader.dataset)
+        num_batches = len(test_loader)
 
         print(f"Size of the DS: {size}, Number of batches: {num_batches}")
 
         test_loss, correct = 0.0, 0
 
-        for i, data in enumerate(testloader, 0):
+        for i, data in enumerate(test_loader, 0):
 
             inputs, labels = data
 

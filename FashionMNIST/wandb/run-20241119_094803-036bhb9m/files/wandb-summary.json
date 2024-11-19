@@ -1,0 +1,1 @@
+{"learning_rate":0.0003,"_runtime":89.124987856,"test_loss":0.2952674766913199,"_wandb":{"runtime":89},"_step":59,"_timestamp":1.7319899724958804e+09,"batch":400,"train_batch_loss":0.1927385777235031,"test_accuracy":89.21,"epoch":9}

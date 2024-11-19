@@ -8,12 +8,12 @@ from src.components.cnn import Conv_Net
 from src.components.data_loader import load_data
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-args = ArgumentParser()
-args.add_argument('--batch_size', type=int, default=128)
-args.add_argument('--epochs', type=int, default=10)
-args.add_argument('--model', type=str, default='ffn')
-args.add_argument('--checkpoint_dir', type=str, default='checkpoints')
-args.parse_args()
+parser = ArgumentParser()
+parser.add_argument('--batch_size', type=int, default=128)
+parser.add_argument('--epochs', type=int, default=10)
+parser.add_argument('--model', type=str, default='ffn')
+parser.add_argument('--checkpoint_dir', type=str, default='./assets')
+args = parser.parse_args()
 
 def evaluate(model, test_loader, criterion):
     model.eval()
@@ -119,3 +119,7 @@ def train():
             print(f"Saved new best model with test loss: {best_loss:.4f}")
 
     wandb.finish()
+
+
+if __name__ == '__main__':
+    train()

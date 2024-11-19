@@ -1,0 +1,16 @@
+{"time":"2024-11-19T09:43:06.413415422+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-19T09:43:06.413480101+05:30","level":"INFO","msg":"created symlink","path":"/home/syednoor/Desktop/FAIR/DL-Banters/FashionMNIST/wandb/run-20241119_094306-q9kpjgfq/logs/debug-core.log"}
+{"time":"2024-11-19T09:43:06.522215002+05:30","level":"INFO","msg":"created new stream","id":"q9kpjgfq"}
+{"time":"2024-11-19T09:43:06.522314874+05:30","level":"INFO","msg":"stream: started","id":"q9kpjgfq"}
+{"time":"2024-11-19T09:43:06.522439742+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"q9kpjgfq"}
+{"time":"2024-11-19T09:43:06.522537547+05:30","level":"INFO","msg":"sender: started","stream_id":"q9kpjgfq"}
+{"time":"2024-11-19T09:43:06.52256939+05:30","level":"INFO","msg":"handler: started","stream_id":"q9kpjgfq"}
+{"time":"2024-11-19T09:43:07.023746551+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-19T09:43:07.177298714+05:30","level":"INFO","msg":"stream: closing","id":"q9kpjgfq"}
+{"time":"2024-11-19T09:43:07.177355421+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-19T09:43:07.178430057+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-19T09:43:10.079127044+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-19T09:43:11.538099907+05:30","level":"INFO","msg":"handler: closed","stream_id":"q9kpjgfq"}
+{"time":"2024-11-19T09:43:11.5381786+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"q9kpjgfq"}
+{"time":"2024-11-19T09:43:11.538221497+05:30","level":"INFO","msg":"sender: closed","stream_id":"q9kpjgfq"}
+{"time":"2024-11-19T09:43:11.5383701+05:30","level":"INFO","msg":"stream: closed","id":"q9kpjgfq"}

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/syednoor/Desktop/FAIR/DL-Banters/FashionMNIST/src/pipeline/train.py", line 124, in <module>
+    train()
+  File "/home/syednoor/Desktop/FAIR/DL-Banters/FashionMNIST/src/pipeline/train.py", line 48, in train
+    if not os.path.exists(args.checkpoint_dir):
+AttributeError: 'ArgumentParser' object has no attribute 'checkpoint_dir'
+Traceback (most recent call last):
+  File "/home/syednoor/Desktop/FAIR/DL-Banters/FashionMNIST/src/pipeline/train.py", line 124, in <module>
+    train()
+  File "/home/syednoor/Desktop/FAIR/DL-Banters/FashionMNIST/src/pipeline/train.py", line 48, in train
+    if not os.path.exists(args.checkpoint_dir):
+AttributeError: 'ArgumentParser' object has no attribute 'checkpoint_dir'

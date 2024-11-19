@@ -1,0 +1,16 @@
+{"time":"2024-11-19T09:43:58.424471042+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-19T09:43:58.424489054+05:30","level":"INFO","msg":"created symlink","path":"/home/syednoor/Desktop/FAIR/DL-Banters/FashionMNIST/wandb/run-20241119_094358-fcui9vpk/logs/debug-core.log"}
+{"time":"2024-11-19T09:43:58.531214564+05:30","level":"INFO","msg":"created new stream","id":"fcui9vpk"}
+{"time":"2024-11-19T09:43:58.531268082+05:30","level":"INFO","msg":"stream: started","id":"fcui9vpk"}
+{"time":"2024-11-19T09:43:58.531408522+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fcui9vpk"}
+{"time":"2024-11-19T09:43:58.531531179+05:30","level":"INFO","msg":"sender: started","stream_id":"fcui9vpk"}
+{"time":"2024-11-19T09:43:58.531586311+05:30","level":"INFO","msg":"handler: started","stream_id":"fcui9vpk"}
+{"time":"2024-11-19T09:43:59.047922107+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-19T09:43:59.204182992+05:30","level":"INFO","msg":"stream: closing","id":"fcui9vpk"}
+{"time":"2024-11-19T09:43:59.204247628+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-19T09:43:59.205484262+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-19T09:44:01.688906122+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-19T09:44:02.103799061+05:30","level":"INFO","msg":"handler: closed","stream_id":"fcui9vpk"}
+{"time":"2024-11-19T09:44:02.103892803+05:30","level":"INFO","msg":"sender: closed","stream_id":"fcui9vpk"}
+{"time":"2024-11-19T09:44:02.103882134+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fcui9vpk"}
+{"time":"2024-11-19T09:44:02.10402802+05:30","level":"INFO","msg":"stream: closed","id":"fcui9vpk"}

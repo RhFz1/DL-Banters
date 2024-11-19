@@ -1,0 +1,16 @@
+{"time":"2024-11-19T09:41:56.77335655+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-19T09:41:56.773376332+05:30","level":"INFO","msg":"created symlink","path":"/home/syednoor/Desktop/FAIR/DL-Banters/FashionMNIST/wandb/run-20241119_094156-awytaqnr/logs/debug-core.log"}
+{"time":"2024-11-19T09:41:56.878312213+05:30","level":"INFO","msg":"created new stream","id":"awytaqnr"}
+{"time":"2024-11-19T09:41:56.878344819+05:30","level":"INFO","msg":"stream: started","id":"awytaqnr"}
+{"time":"2024-11-19T09:41:56.87848854+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"awytaqnr"}
+{"time":"2024-11-19T09:41:56.878544447+05:30","level":"INFO","msg":"handler: started","stream_id":"awytaqnr"}
+{"time":"2024-11-19T09:41:56.87864626+05:30","level":"INFO","msg":"sender: started","stream_id":"awytaqnr"}
+{"time":"2024-11-19T09:41:57.392629985+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-19T09:41:57.55915408+05:30","level":"INFO","msg":"stream: closing","id":"awytaqnr"}
+{"time":"2024-11-19T09:41:57.559216761+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-19T09:41:57.560110714+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-19T09:42:04.184566509+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-19T09:42:04.567998625+05:30","level":"INFO","msg":"handler: closed","stream_id":"awytaqnr"}
+{"time":"2024-11-19T09:42:04.568057273+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"awytaqnr"}
+{"time":"2024-11-19T09:42:04.568100914+05:30","level":"INFO","msg":"sender: closed","stream_id":"awytaqnr"}
+{"time":"2024-11-19T09:42:04.568190215+05:30","level":"INFO","msg":"stream: closed","id":"awytaqnr"}

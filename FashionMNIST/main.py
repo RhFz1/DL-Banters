@@ -23,6 +23,10 @@ def main():
     ffn_model.load_state_dict(torch.load('artifacts/ffn.pth'))
     cnn_model, ffn_model = cnn_model.to(device), ffn_model.to(device)
 
+    # Log the number of parameters in the model
+    print(f"Number of parameters in CNN: {sum(p.numel() for p in cnn_model.parameters())}")
+    print(f"Number of parameters in FFN: {sum(p.numel() for p in ffn_model.parameters())}")
+
     correct_ffn = 0
     total_ffn = 0
 
